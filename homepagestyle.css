@@ -1,0 +1,41 @@
+header
+{
+    background-color: rgb(3, 198, 252);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#customer
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+#logo-div
+{
+    width: 30%;
+}
+#logo
+{
+    position: relative;
+    width: 80%;
+}
+.itemcounter
+{
+    position: absolute;
+}
+.homescreen
+{
+    display: flexbox;
+    overflow:scroll;
+    justify-content: space-between;
+    align-items: normal;
+}
+.product
+{
+    border: 1px solid black;
+    overflow: scroll;
+    width:30%;
+    height:40%;
+}
